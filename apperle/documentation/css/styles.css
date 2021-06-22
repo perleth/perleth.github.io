@@ -1,0 +1,209 @@
+/*
+* Perla - Perla Template
+* Build Date: September 2016
+* Author: MDawoud
+* This is a premium product available exclusively here : https://themeforest.net/user/perletheme
+*/
+/*  TABLE OF CONTENTS
+    ---------------------------
+    *. Fonts
+    *. Preloader styles
+    1. Generic styles
+
+*/
+/* ------------------------------------- */
+/* *. Fonts ............................ */
+/* ------------------------------------- */
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500");
+/* ------------------------------------- */
+/* *. General Styles ................... */
+/* ------------------------------------- */
+html {
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+body {
+  font-family: 'Poppins', sans-serif, "proxima-nova", "Helvetica Neue", Helvetica, Arial;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.8;
+  letter-spacing: 0;
+  height: 100%; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #2b2b2b;
+  font-family: 'Poppins', sans-serif, "proxima-nova", "Helvetica Neue", Helvetica, Arial; }
+
+h5 {
+  font-size: 1.6rem; }
+
+h6 {
+  font-size: 1.2rem; }
+
+p {
+  font-size: 1.1rem;
+  color: #3e3e3e;
+  max-width: 800px; }
+
+.p-tb-1 {
+  padding: 1rem 0; }
+
+.p-tb-2 {
+  padding: 2rem 0; }
+
+.p-tb-3 {
+  padding: 3rem 0; }
+
+.p-b-1 {
+  padding-bottom: 1rem; }
+
+.p-b-2 {
+  padding-bottom: 2rem; }
+
+.p-b-3 {
+  padding-bottom: 3rem; }
+
+.p-t-1 {
+  padding-top: 1rem; }
+
+.p-t-2 {
+  padding-top: 2rem; }
+
+.p-t-3 {
+  padding-top: 3rem; }
+
+.m-tb-1 {
+  margin: 1rem 0; }
+
+.m-tb-2 {
+  margin: 2rem 0; }
+
+.m-tb-3 {
+  margin: 3rem 0; }
+
+.m-b-1 {
+  margin-bottom: 1rem; }
+
+.m-b-2 {
+  margin-bottom: 2rem; }
+
+.m-b-3 {
+  margin-bottom: 3rem; }
+
+.m-t-1 {
+  margin-top: 1rem; }
+
+.m-t-2 {
+  margin-top: 2rem; }
+
+.m-t-3 {
+  margin-top: 3rem; }
+
+a {
+  text-decoration: none; }
+
+/* ------------------------------------- */
+/* *. NavBar Styles .................... */
+/* ------------------------------------- */
+.main-container {
+  position: relative; }
+
+#main-nav {
+  position: fixed;
+  width: 280px;
+  height: 100vh;
+  margin: 0;
+  top: 0;
+  left: 0;
+  padding: 0;
+  z-index: 102;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  overflow: scroll; }
+  #main-nav .sidebar {
+    background-color: #252525;
+    overflow: scroll;
+    border-right: 2px dashed #6e6e6e;
+    margin: 0;
+    z-index: 1000;
+    padding-bottom: 4rem; }
+    #main-nav .sidebar > li {
+      padding-bottom: 1rem; }
+    #main-nav .sidebar a {
+      color: white;
+      display: block;
+      padding: 0 1rem; }
+    #main-nav .sidebar .sub {
+      padding: 0.5rem 0.5rem 0.5rem 6rem;
+      border-bottom: none; }
+    #main-nav .sidebar .home {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+      height: auto;
+      text-align: center; }
+      #main-nav .sidebar .home img {
+        width: 40px; }
+    #main-nav .sidebar a.active {
+      background-color: #4b4b4b; }
+  #main-nav button {
+    margin: 0.5rem; }
+
+.content {
+  margin-left: 280px;
+  width: calc(100vw - 280px); }
+
+a {
+  font-weight: 500;
+  font-size: 110%; }
+
+.file {
+  color: #820300;
+  font-weight: 500; }
+
+section {
+  padding: 2rem; }
+
+.btn-floating {
+  margin-right: 0.4rem; }
+
+.btn-floating i {
+  line-height: 2.5rem;
+  margin-right: 4rem; }
+
+.intro p {
+  text-align: left; }
+.intro button {
+  margin: 0 auto; }
+.intro img {
+  max-width: 150px; }
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 80%; }
+
+  #main-nav {
+    width: 180px; }
+
+  .content {
+    margin-left: 180px;
+    width: calc(100vw - 180px); } }
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 75%; }
+
+  #main-nav {
+    display: none; }
+
+  .content {
+    margin-left: 0;
+    width: 100vw; } }
+@media screen and (max-width: 300px) {
+  html {
+    font-size: 68%; } }
+@media screen and (max-height: 500px) {
+  #main-header .caption {
+    top: 50%; }
+    #main-header .caption img {
+      width: 280px; } }

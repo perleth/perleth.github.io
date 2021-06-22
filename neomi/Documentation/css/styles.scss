@@ -1,0 +1,339 @@
+/*
+* Perla - Perla Template
+* Build Date: January 2018
+* Author: MDawoud
+* This is a premium product available exclusively here : https://themeforest.net/user/perletheme
+*/
+/*  TABLE OF CONTENTS
+    ---------------------------
+    *. Fonts
+    *. Preloader styles
+    1. Generic styles
+
+*/
+
+/* ------------------------------------- */
+/* *. Fonts ............................ */
+/* ------------------------------------- */
+
+
+/* Google Fonts */
+//@import url("https://fonts.googleapis.com/css?family=Frijole|Montserrat:400|Quicksand:700");
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500");
+/* ------------------------------------- */
+/* *. General Styles ................... */
+/* ------------------------------------- */
+
+html {
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: 'Poppins', sans-serif, "proxima-nova", "Helvetica Neue", Helvetica, Arial;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.8;
+  letter-spacing: 0;
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #2b2b2b;
+  font-family: 'Poppins', sans-serif, "proxima-nova", "Helvetica Neue", Helvetica, Arial;
+}
+
+h5 {
+  font-size: 1.6rem;
+}
+
+h6 {
+  font-size: 1.2rem;
+}
+
+p {
+  font-size: 1.1rem;
+  color: #3e3e3e;
+  max-width: 800px;
+}
+
+
+//Padding and margins classes
+.p-tb-1 {
+  padding: 1rem 0;
+}
+
+.p-tb-2 {
+  padding: 2rem 0;
+}
+
+.p-tb-3 {
+  padding: 3rem 0;
+}
+
+.p-b-1 {
+  padding-bottom: 1rem;
+}
+
+.p-b-2 {
+  padding-bottom: 2rem;
+}
+
+.p-b-3 {
+  padding-bottom: 3rem;
+}
+
+.p-t-1 {
+  padding-top: 1rem;
+}
+
+.p-t-2 {
+  padding-top: 2rem;
+}
+
+.p-t-3 {
+  padding-top: 3rem;
+}
+
+.m-tb-1 {
+  margin: 1rem 0;
+}
+
+.m-tb-2 {
+  margin: 2rem 0;
+}
+
+.m-tb-3 {
+  margin: 3rem 0;
+}
+
+.m-b-1 {
+  margin-bottom: 1rem;
+}
+
+.m-b-2 {
+  margin-bottom: 2rem;
+}
+
+.m-b-3 {
+  margin-bottom: 3rem;
+}
+
+.m-t-1 {
+  margin-top: 1rem;
+}
+
+.m-t-2 {
+  margin-top: 2rem;
+}
+
+.m-t-3 {
+  margin-top: 3rem;
+}
+
+a {
+  text-decoration: none;
+}
+/* ------------------------------------- */
+/* *. NavBar Styles .................... */
+/* ------------------------------------- */
+.main-container {
+  position: relative;
+}
+#main-nav {
+  position: fixed;
+  width: 280px;
+  height: 100vh;
+  margin: 0;
+  top: 0;
+  left: 0;
+  padding: 0;
+  z-index: 102;
+  transition: all 0.2s ease-in-out;
+  overflow: scroll;
+  .sidebar {
+    background-color: #252525;
+    overflow: scroll;
+    border-right: 2px dashed #6e6e6e;
+    margin: 0;
+    z-index: 1000;
+    padding-bottom: 4rem;
+    & > li {
+      padding-bottom: 1rem;
+    }
+    a {
+      color: white;
+      display: block;
+      padding: 0 1rem ;
+    }
+    .sub {
+      padding: 0.5rem 0.5rem 0.5rem 6rem;
+      border-bottom: none;
+    }
+    .home {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+      height: auto;
+      text-align: center;
+      img {
+        width: 40px;
+      }
+    }
+    a.active {
+      background-color: #4b4b4b;
+    }
+  }
+  button {
+    margin: 0.5rem;
+  }
+
+}
+
+.content {
+  margin-left: 280px;
+  width: calc(100vw - 280px);
+}
+
+a {
+  font-weight: 500;
+  font-size: 110%;
+}
+
+.file {
+  color : #820300;
+  font-weight: 500;
+}
+
+section {
+  padding: 2rem;
+}
+.btn-floating {
+  margin-right: 0.4rem;
+}
+.btn-floating i {
+  line-height: 2.5rem;
+  margin-right: 4rem;
+}
+.intro {
+  p {
+    text-align: left;
+  }
+  button {
+    margin: 0 auto;
+  }
+  img {
+    max-width: 150px;
+  }
+}
+
+@media screen and (max-width: 600px) { #main-header,    #testimonials,    #statistics,    #download {     background-attachment: scroll !important;   }
+  html {
+    font-size: 80%;
+  }
+  #main-nav {
+    width: 180px;
+  }
+  .content {
+    margin-left: 180px;
+    width: calc(100vw - 180px);
+  }
+
+}
+
+
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 75%;
+  }
+  #main-nav {
+    display: none;
+  }
+  .content {
+    margin-left: 0;
+    width: 100vw;
+  }
+
+}
+
+@media screen and (max-width: 300px) {
+  html {
+    font-size: 68%;
+  }
+}
+
+@media screen and (max-height: 500px) {
+  #main-header .caption {
+    top: 50%;
+    img {
+      width: 280px;
+    }
+  }
+}
+
+table {
+  th {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  td {
+    font-weight: bold;
+  }
+}
+
+.colors-bg {
+  display: flex;
+  flex-wrap: wrap;
+  div {
+    width: 300px;
+    height: 300px;
+    min-width: 300px;
+    margin: 10px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    p {
+      color: #ffffff;
+      font-size: 2rem;
+    }
+  }
+}
+.style5  {background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d); }
+.style6  {background: linear-gradient(135deg, #03001e, #7303c0, #ec38bc); }
+.style7  {background: linear-gradient(135deg, #000428, #0074da); }
+.style29 {background: linear-gradient(135deg, #011c44, #731d95); }
+.style10 {background: linear-gradient(135deg, #01262a, #66204e, #5bc5cc); }
+.style16 {background: linear-gradient(135deg, #780206, #061161); }
+.style23 {background: linear-gradient(135deg, #1a1a28, #86377b); }
+.style28 {background: linear-gradient(135deg, #360033, #0b8793); }
+.style3  {background: linear-gradient(45deg, #656cc9 0%, #48b2dc 100%); }
+.style8  {background: linear-gradient(135deg, #fc354c, #0abfbc); }
+.style9  {background: linear-gradient(135deg, #0099f7, #f11712); }
+.style11 {background: linear-gradient(135deg, #4ab5e6, #8e54e9); }
+.style12 {background: linear-gradient(135deg, #004ff9, #fff94c); }
+.style13 {background: linear-gradient(135deg, #007BC3, #2EB8B7); }
+.style14 {background: linear-gradient(135deg, #6f2daa, #3a9da2, #0d2a53); }
+.style15 {background: linear-gradient(135deg, #237a86, #645e89, #89253e); }
+.style17 {background: linear-gradient(135deg, #c10f41, #233b88); }
+.style18 {background: linear-gradient(135deg, #dc2424, #4a569d); }
+.style20 {background: linear-gradient(135deg, #00bf8f, #321751); }
+.style22 {background: linear-gradient(135deg, #2C3E50, #FD746C); }
+.style24 {background: linear-gradient(135deg, #00C3B0, #131449); }
+.style25 {background: linear-gradient(135deg, #5614b0, #dbd65c); }
+.style26 {background: linear-gradient(to right, #00c9fd 0%, #81ee8e 100%);; }
+.style32 {background: linear-gradient(135deg, #24c6dc, #514a9d); }
+.style1  {background: linear-gradient(135deg, #a770ef, #cf8bf3, #fdb99b); }
+.style2  {background: linear-gradient(135deg, #e38295, #ae6ab6, #3fa1a8); }
+.style4  {background: linear-gradient(135deg, #77a1d3, #79cbca, #e684ae); }
+.style19 {background: linear-gradient(to right, #feac5e, #c779d0, #4bc0c8); }
+.style21 {background: linear-gradient(to right, #30e8bf, #ffc0b4); }
+.style27 {background: linear-gradient(135deg, #c2e59c, #64b3f4); }
+.style30 {background: linear-gradient(135deg, #00f0ff, #ff00f6); }
+.style31 {background: linear-gradient(135deg, #ff6e7f, #bfe9ff); }
+.style32 {background: linear-gradient(135deg, #24c6dc, #514a9d); }
+.style33 {background: linear-gradient(135deg, #08CBEC, #0D42BF); }
+.style34 {background: linear-gradient(135deg, #744DE1, #52379f); }
+.style35 {background: linear-gradient(135deg, #8FD3C5, #1686D9); }
+.style100 {background: linear-gradient(45deg, #14172a, #000000); }
+.style101 {background: linear-gradient(135deg, #199AEC, #199AEC); }

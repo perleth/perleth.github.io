@@ -1,0 +1,1 @@
+!function($){"use strict";$.scrollIt({easing:"ease-out",topOffset:-1,activeClass:"active"})}(jQuery);

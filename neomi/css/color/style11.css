@@ -1,0 +1,20 @@
+.gradient-color,
+#about-us .icon::after,
+.button-main::before,
+.button-main:hover {
+    background: #4ab5e6; /* Old browsers */
+    background: -moz-linear-gradient(135deg, #4ab5e6, #8e54e9);
+    background: -webkit-linear-gradient(135deg, #4ab5e6, #8e54e9);
+    background: linear-gradient(135deg, #4ab5e6, #8e54e9);
+}
+.reflection-text:not(.reflection-text-white)::after {
+    background: url(../../images/line-break/line-break-11.svg) no-repeat;
+}
+
+svg linearGradient stop:first-child {
+    stop-color: #4ab5e6;
+}
+
+svg linearGradient stop:last-child {
+    stop-color: #8e54e9;
+}

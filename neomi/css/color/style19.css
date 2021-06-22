@@ -1,0 +1,17 @@
+.gradient-color,
+#about-us .icon::after,
+.button-main::before,
+.button-main:hover {
+    background: #feac5e;
+    background: -moz-linear-gradient(to right, #feac5e, #c779d0, #4bc0c8);
+    background: -webkit-linear-gradient(to right, #feac5e, #c779d0, #4bc0c8);
+    background: linear-gradient(to right, #feac5e, #c779d0, #4bc0c8);
+}
+
+svg linearGradient stop:first-child {
+    stop-color: #c779d0;
+}
+
+svg linearGradient stop:last-child {
+    stop-color: #4bc0c8;
+}

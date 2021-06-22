@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Meta tags-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Change Title and Meta tags-->
+    <title>Eclipse Ico | HTML Template | Home</title>
+    <meta name="description"
+          content="Eclipse Ico | responsive app landing page, This is a premium product available exclusively here : https://themeforest.net/user/perletheme">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Perle Template">
+
+    <!-- Favicon -->
+    <link rel="icon" href="./images/icons/earth-ball@2x.png">
+
+    <!--Css Libraries-->
+    <link rel="stylesheet" href="./css/plugins.css">
+
+    <!-- Our Min CSS -->
+    <link rel="stylesheet" href="./css/styles-1-light.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js" type="text/javascript"></script>
+    <![endif]-->
+
+    <style>
+
+        .main-navbar {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            background: none;
+            box-shadow: none;
+        }
+
+        .main-navbar .nav-link {
+            border-top: none !important;
+            background: none !important;
+        }
+
+        .main-navbar .first {
+            border: none;
+            background: none;
+        }
+
+        .main-navbar .first .nav-link {
+            background: -webkit-linear-gradient(left, #3cf7ff, #2765FF) !important;
+            background: linear-gradient(90deg, #3cf7ff, #2765FF) !important;
+            color: #ffffff;
+            margin-top: 0;
+            height: 40px;
+            line-height: 40px;
+            border-radius: 15px;
+        }
+
+        .navbar-collapse {
+            -webkit-box-pack: end;
+            -webkit-justify-content: flex-end;
+            -ms-flex-pack: end;
+            justify-content: flex-end;
+        }
+
+        .main-header {
+            margin-top: 0;
+            padding: 0;
+            height: 100vh !important;
+            min-height: 700px !important;
+        }
+
+        .header-content {
+            height: 100%;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+            flex-direction: column;
+        }
+
+        .header-content .preview-title {
+            margin-top: 1rem;
+        }
+
+        .header-content h2 {
+            text-align: center;
+            color: #000000;
+            font-size: 3rem;
+            font-weight: 700;
+        }
+
+        .header-content .preview-buttons {
+            text-align: center;
+            margin-top: 2rem;
+        }
+
+        .header-content .preview-buttons a {
+            display: inline-block;
+            margin: 0.5rem 1rem;
+            padding: 0.5rem 2rem;
+            border-radius: 20px;
+        }
+
+        .header-content .preview-buttons img {
+            margin-right: 0.5rem;
+        }
+
+        .header-content .preview-buttons .first {
+            background: -webkit-linear-gradient(left, #3cf7ff, #2765FF);
+            background: linear-gradient(90deg, #3cf7ff, #2765FF);
+            color: #ffffff;
+        }
+
+        .template-demos i {
+            background: linear-gradient(90deg, #3cf7ff, #2765FF);
+            margin-bottom: 2rem;
+        }
+
+        .single-card {
+            margin: 2rem 0 3rem;
+        }
+
+        .header-content .preview-buttons .second {
+            -webkit-background-clip: text !important;
+            -webkit-text-fill-color: transparent;
+            background: -webkit-linear-gradient(left, #3cf7ff, #2765FF);
+            background: linear-gradient(90deg, #3cf7ff, #2765FF);
+            border: 1px solid #2765FF;
+        }
+
+        .template-demos {
+            margin: 6rem 0;
+        }
+
+        .demos-section-container {
+            text-align: center;
+            border-radius: 40px;
+            margin: 0 auto;
+            padding: 0.5rem;
+            background: -webkit-linear-gradient(left, rgba(60, 247, 255, 0.31), rgba(39, 101, 255, 0.31));
+            background: linear-gradient(90deg, rgba(60, 247, 255, 0.31), rgba(39, 101, 255, 0.31));
+        }
+
+        .demos-section-title {
+            -webkit-background-clip: text !important;
+            -webkit-text-fill-color: transparent;
+            background: -webkit-linear-gradient(left, #1d2249, #2765FF);
+            background: linear-gradient(90deg, #1d2249, #2765FF);
+            display: inline-block;
+            margin: 1rem 0;
+        }
+
+        .demos-container {
+            margin: 4rem 0;
+        }
+
+        .single-demo-container {
+            margin: 2rem 0;
+        }
+
+        .single-demo-container h4 {
+            background: -webkit-linear-gradient(left, #3cf7ff, #2765FF);
+            background: linear-gradient(90deg, #3cf7ff, #2765FF);
+            color: #ffffff;
+            margin: 0.4rem 0 0;
+            padding: 0.5rem 0;
+            text-align: center;
+            border-radius: 0 0 15px 15px;
+        }
+
+        .single-demo-container img {
+            border-radius: 15px 15px 0 0;
+        }
+
+        .single-demo-container a {
+            border-radius: 15px;
+            margin: 0 2rem;
+            display: inline-block;
+            -webkit-transition: all 0.2s ease-in;
+            transition: all 0.2s ease-in;
+        }
+
+        .single-demo-container a:hover {
+            -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
+            -webkit-transition: all 0.4s ease-in;
+            transition: all 0.4s ease-in;
+        }
+
+        .right-side-content {
+            margin: 4rem 0;
+        }
+
+        .right-side-content .blue-light-background {
+            text-align: center;
+            padding: 2rem 1rem 4rem;
+            margin: 0 1rem 2rem;
+            position: relative;
+            border-radius: 20px;
+        }
+
+        .right-side-content h4 {
+            color: #000000;
+            margin-top: 1rem;
+        }
+
+        .right-side-content img {
+            width: 60px;
+            margin-bottom: 1rem;
+        }
+
+        .right-side-content p {
+            color: #0b0b0b;
+            opacity: 0.6;
+        }
+
+        .main-copyright {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            -webkit-box-pack: justify;
+            -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+            align-items: center;
+            padding: 0.3rem 2rem;
+            color: #ffffff;
+            border-radius: 20px 20px 0 0;
+            background: #151935;
+        }
+
+        .main-copyright p {
+            margin: 0;
+            opacity: 0.4;
+            font-size: 0.7rem;
+        }
+
+        .main-copyright .copyright-nav {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        }
+
+        .main-copyright .copyright-nav a {
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+
+        @media screen and (max-width: 992px) {
+            .navbar .first {
+                margin-top:  1rem;
+            }
+        }
+    </style>
+
+</head>
+<body class="dark-style">
+
+<div class="page preview-page">
+
+    <!-- Start Nav Section-->
+    <nav class="navbar navbar-expand-lg main-navbar navbar-light">
+        <div class="overlay"></div>
+        <div class="container">
+            <a class="navbar-brand" data-scroll-nav="1" href="#">
+                <img class="img-fluid" src="./images/svg/site-logo.svg" alt="Website Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="very_small_hamburger" id="hamburger-menu">
+                    <svg viewBox="0 0 800 600">
+                        <path d="M300,220 C300,220 520,220 540,220 C740,220 640,540 520,420 C440,340 300,200 300,200"
+                              class="top"></path>
+                        <path d="M300,320 L540,320" class="middle"></path>
+                        <path d="M300,210 C300,210 520,210 540,210 C740,210 640,530 520,410 C440,330 300,190 300,190"
+                              class="bottom" transform="translate(480, 320) scale(1, -1) translate(-480, -318) "></path>
+                    </svg>
+                </a>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav flex-end-content">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle waves-effect" href="#" id="navbarDropdown" role="button"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Demos
+                            <span
+                                    class="sr-only">(current)</span></a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item waves-effect" href="./index-style-1.html" target="_blank">Bitcoin Style light</a>
+                            <a class="dropdown-item waves-effect" href="./index-style-1-dark.html" target="_blank">Bitcoin Style dark</a>
+                            <a class="dropdown-item waves-effect" href="./index-style-2-dark.html" target="_blank">Minimal Style dark</a>
+                            <a class="dropdown-item waves-effect" href="./index-style-2-dark-bg.html" target="_blank">Minimal Style background</a>
+                            <a class="dropdown-item waves-effect" href="./index-style-2-dark-video.html" target="_blank">Minimal Style Video</a>
+                            <a class="dropdown-item waves-effect" href="./index-style-2-animated2.html" target="_blank">Minimal Animated Background</a>
+                            <a class="dropdown-item waves-effect" href="./index-style-2-animated.html" target="_blank">Minimal Animated Background 2</a>
+                            <a class="dropdown-item waves-effect" href="./index-style-2-dark.html" target="_blank">Minimal Style Light</a>
+                            <a class="dropdown-item waves-effect" href="./index-style-2-dark-bg.html" target="_blank">Light Style background</a>
+                            <a class="dropdown-item waves-effect" href="./index-style-2-dark-video.html" target="_blank">Light Style Video</a>
+                            <a class="dropdown-item waves-effect" href="./index-style-2-animated2.html" target="_blank">Light Animated Background</a>
+                            <a class="dropdown-item waves-effect" href="./index-style-2-animated.html" target="_blank">Light Animated Background 2</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item waves-effect" href="./contact-us.html" target="_blank">Contact Us</a>
+                            <a class="dropdown-item waves-effect" href="./sign-in.html" target="_blank">sign in page</a>
+                            <a class="dropdown-item waves-effect" href="./sign-up.html" target="_blank">sign up page</a>
+                            <a class="dropdown-item waves-effect" href="./404.html" target="_blank">404 page</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item waves-effect" href="./blog-main.html" target="_blank">left sidebar blog</a>
+                            <a class="dropdown-item waves-effect" href="./blog-main-2.html" target="_blank">right sidebar blog</a>
+                            <a class="dropdown-item waves-effect" href="./blog-main-3.html" target="_blank">full page blog</a>
+                        </div>
+                    </li>
+                    <li class="nav-item nav-link-scroll waves-effect">
+                        <a class="nav-link" data-scroll-nav="3" href="">Features</a>
+                    </li>
+                    <li class="nav-item nav-link-scroll waves-effect">
+                        <a class="nav-link" data-scroll-nav="3" href="#">Support</a>
+                    </li>
+                </ul>
+                <button class="first">
+                    <a class="nav-link hoverable waves-effect waves-button" href="">Buy Template</a>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <!-- End Nav Section-->
+
+    <!-- Start Header Section-->
+    <header class="main-header" data-scroll-index="1"
+            style="background: url('./images/preview/bgi.png'); background-size: cover">
+        <div class="header-content container">
+            <div>
+                <img src="./images/preview/icon.svg" width="150px" alt="">
+            </div>
+            <div class="preview-title">
+                <h2 data-aos="fade-up" data-aos-delay="120">eclipse ico coin</h2>
+                <h2 data-aos="fade-up" data-aos-delay="140">for crypto currency</h2>
+            </div>
+            <div class="preview-buttons">
+                <a class="nav-link hoverable waves-effect first hover-up" href="" data-aos="fade-up" data-aos-delay="160"><img src="./images/preview/ico.svg"
+                                                                                       width="20px" alt="">Get
+                    eclipsocoin</a>
+                <a class="nav-link hoverable waves-effect second hover-up" href="" data-scroll-nav="2" data-aos="fade-up" data-aos-delay="180">See Main
+                    Demos</a>
+            </div>
+        </div>
+    </header>
+    <!-- End Header Section-->
+
+    <div class="container">
+        <div class="template-demos" data-scroll-index="2">
+            <div class="demos-section-container">
+                <h3 class="demos-section-title">Main Page Styles</h3>
+            </div>
+            <div class="demos-container row justify-content-md-center">
+                <div class="col-12 col-xl-4 col-l-6 col-md-6 single-demo-container" data-aos="fade-up" data-aos-delay="220">
+                    <a class="hoverable" href="./index-style-2-dark.html" target="_blank">
+                        <img class="img-fluid" src="./images/preview/dark-2.png" alt="">
+                        <h4>minimal style dark</h4>
+                    </a>
+                </div>
+                <div class="col-12 col-xl-4 col-l-6 col-md-6 single-demo-container" data-aos="fade-up" data-aos-delay="200">
+                    <a class="hoverable" href="./index-style-2-dark-bg.html" target="_blank">
+                        <img class="img-fluid" src="./images/preview/dark-bg.png" alt="">
+                        <h4>minimal style background</h4>
+                    </a>
+                </div>
+                <div class="col-12 col-xl-4 col-l-6 col-md-6 single-demo-container" data-aos="fade-up" data-aos-delay="180">
+                    <a class="hoverable" href="./index-style-1.html" target="_blank">
+                        <img class="img-fluid" src="./images/preview/main-1.png" alt="">
+                        <h4>bitcoin style light</h4>
+                    </a>
+                </div>
+                <div class="col-12 col-xl-4 col-l-6 col-md-6 single-demo-container" data-aos="fade-up" data-aos-delay="160">
+                    <a class="hoverable" href="./index-style-1-dark.html" target="_blank">
+                        <img class="img-fluid" src="./images/preview/dark-1.png" alt="">
+                        <h4>bitcoin style dark</h4>
+                    </a>
+                </div>
+                <div class="col-12 col-xl-4 col-l-6 col-md-6 single-demo-container" data-aos="fade-up" data-aos-delay="140">
+                    <a class="hoverable" href="./index-style-2-dark-video.html" target="_blank">
+                        <img class="img-fluid" src="./images/preview/video.png" alt="">
+                        <h4>video background</h4>
+                    </a>
+                </div>
+                <div class="col-12 col-xl-4 col-l-6 col-md-6 single-demo-container" data-aos="fade-up" data-aos-delay="120">
+                    <a class="hoverable" href="./index-style-2-animated2.html" target="_blank">
+                        <img class="img-fluid" src="./images/preview/animated2.png" alt="">
+                        <h4>minimal animated background</h4>
+                    </a>
+                </div>
+                <div class="col-12 col-xl-4 col-l-6 col-md-6 single-demo-container" data-aos="fade-up" data-aos-delay="100">
+                    <a class="hoverable" href="./index-style-2-animated.html" target="_blank">
+                        <img class="img-fluid" src="./images/preview/animated1.png" alt="">
+                        <h4>minimal animated background 2</h4>
+                    </a>
+                </div>
+                <div class="col-12 col-xl-4 col-l-6 col-md-6 single-demo-container" data-aos="fade-up" data-aos-delay="220">
+                    <a class="hoverable" href="./index-style-2-light.html" target="_blank">
+                        <img class="img-fluid" src="./images/preview/light-2.png" alt="">
+                        <h4>Minimal style light</h4>
+                    </a>
+                </div>
+                <div class="col-12 col-xl-4 col-l-6 col-md-6 single-demo-container" data-aos="fade-up" data-aos-delay="200">
+                    <a class="hoverable" href="./index-style-2-light-bg.html" target="_blank">
+                        <img class="img-fluid" src="./images/preview/light-bg.png" alt="">
+                        <h4>minimal light background</h4>
+                    </a>
+                </div>
+                <div class="col-12 col-xl-4 col-l-6 col-md-6 single-demo-container" data-aos="fade-up" data-aos-delay="140">
+                    <a class="hoverable" href="./index-style-2-light-video.html" target="_blank">
+                        <img class="img-fluid" src="./images/preview/light-video.png" alt="">
+                        <h4>light video background</h4>
+                    </a>
+                </div>
+                <div class="col-12 col-xl-4 col-l-6 col-md-6 single-demo-container" data-aos="fade-up" data-aos-delay="120">
+                    <a class="hoverable" href="./index-style-2-light-animated2.html" target="_blank">
+                        <img class="img-fluid" src="./images/preview/light-animated2.png" alt="">
+                        <h4>light animated background</h4>
+                    </a>
+                </div>
+                <div class="col-12 col-xl-4 col-l-6 col-md-6 single-demo-container" data-aos="fade-up" data-aos-delay="100">
+                    <a class="hoverable" href="./index-style-2-light-animated.html" target="_blank">
+                        <img class="img-fluid" src="./images/preview/light-animated1.png" alt="">
+                        <h4>light animated background 2</h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="template-demos">
+            <div class="demos-section-container">
+                <h3 class="demos-section-title">Other Pages</h3>
+            </div>
+            <div class="demos-container row justify-content-md-center">
+                <div class="col-12 col-xl-4 col-l-6 col-md-6 single-demo-container" data-aos="fade-up" data-aos-delay="160">
+                    <a class="hoverable" href="./contact-us.html" target="_blank">
+                        <img class="img-fluid" src="./images/preview/contact-us.png" alt="">
+                        <h4>Contact Us</h4>
+                    </a>
+                </div>
+                <div class="col-12 col-xl-4 col-l-6 col-md-6 single-demo-container" data-aos="fade-up" data-aos-delay="140">
+                    <a class="hoverable" href="./sign-in.html" target="_blank">
+                        <img class="img-fluid" src="./images/preview/sign-in.png" alt="">
+                        <h4>sign in page</h4>
+                    </a>
+                </div>
+                <div class="col-12 col-xl-4 col-l-6 col-md-6 single-demo-container" data-aos="fade-up" data-aos-delay="120">
+                    <a class="hoverable" href="./sign-up.html" target="_blank">
+                        <img class="img-fluid" src="./images/preview/sign-up.png" alt="">
+                        <h4>sign up page</h4>
+                    </a>
+                </div>
+                <div class="col-12 col-xl-4 col-l-6 col-md-6 single-demo-container" data-aos="fade-up" data-aos-delay="100">
+                    <a class="hoverable" href="./404.html" target="_blank">
+                        <img class="img-fluid" src="./images/preview/404.png" alt="">
+                        <h4>404 page</h4>
+                    </a>
+                </div>
+                <div class="col-12 col-xl-4 col-l-6 col-md-6 single-demo-container" data-aos="fade-up" data-aos-delay="160">
+                    <a class="hoverable" href="./contact-us-light.html" target="_blank">
+                        <img class="img-fluid" src="./images/preview/contact-us-light.png" alt="">
+                        <h4>contact us light</h4>
+                    </a>
+                </div>
+                <div class="col-12 col-xl-4 col-l-6 col-md-6 single-demo-container" data-aos="fade-up" data-aos-delay="140">
+                    <a class="hoverable" href="./sign-in-light.html" target="_blank">
+                        <img class="img-fluid" src="./images/preview/sign-in-light.png" alt="">
+                        <h4>sign in page light</h4>
+                    </a>
+                </div>
+                <div class="col-12 col-xl-4 col-l-6 col-md-6 single-demo-container" data-aos="fade-up" data-aos-delay="120">
+                    <a class="hoverable" href="./sign-up-light.html" target="_blank">
+                        <img class="img-fluid" src="./images/preview/sign-up-light.png" alt="">
+                        <h4>sign up page light</h4>
+                    </a>
+                </div>
+                <div class="col-12 col-xl-4 col-l-6 col-md-6 single-demo-container" data-aos="fade-up" data-aos-delay="100">
+                    <a class="hoverable" href="./404-light.html" target="_blank">
+                        <img class="img-fluid" src="./images/preview/404-light.png" alt="">
+                        <h4>404 page light</h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="template-demos">
+            <div class="demos-section-container">
+                <h3 class="demos-section-title">Blog Pages</h3>
+            </div>
+            <div class="demos-container row justify-content-md-center">
+                <div class="col-12 col-xl-4 col-l-6 col-md-6 single-demo-container" data-aos="fade-up" data-aos-delay="180">
+                    <a class="hoverable" href="./blog-main.html" target="_blank">
+                        <img class="img-fluid" src="./images/preview/blog-right.png" alt="">
+                        <h4>left sidebar blog</h4>
+                    </a>
+                </div>
+                <div class="col-12 col-xl-4 col-l-6 col-md-6 single-demo-container" data-aos="fade-up" data-aos-delay="140">
+                    <a class="hoverable" href="./blog-main-2.html" target="_blank">
+                        <img class="img-fluid" src="./images/preview/blog-left.png" alt="">
+                        <h4>right sidebar blog</h4>
+                    </a>
+                </div>
+                <div class="col-12 col-xl-4 col-l-6 col-md-6 single-demo-container" data-aos="fade-up" data-aos-delay="100">
+                    <a class="hoverable" href="./blog-main-3.html" target="_blank">
+                        <img class="img-fluid" src="./images/preview/blog-full.png" alt="">
+                        <h4>full page blog</h4>
+                    </a>
+                </div>
+                <div class="col-12 col-xl-4 col-l-6 col-md-6 single-demo-container" data-aos="fade-up" data-aos-delay="180">
+                    <a class="hoverable" href="./blog-main-light.html" target="_blank">
+                        <img class="img-fluid" src="./images/preview/blog-light-right.png" alt="">
+                        <h4>left sidebar blog</h4>
+                    </a>
+                </div>
+                <div class="col-12 col-xl-4 col-l-6 col-md-6 single-demo-container" data-aos="fade-up" data-aos-delay="140">
+                    <a class="hoverable" href="./blog-main-light-2.html" target="_blank">
+                        <img class="img-fluid" src="./images/preview/blog-light-left.png" alt="">
+                        <h4>right sidebar blog</h4>
+                    </a>
+                </div>
+                <div class="col-12 col-xl-4 col-l-6 col-md-6 single-demo-container" data-aos="fade-up" data-aos-delay="100">
+                    <a class="hoverable" href="./blog-main-light-3.html" target="_blank">
+                        <img class="img-fluid" src="./images/preview/blog-light-full.png" alt="">
+                        <h4>full page blog</h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="template-demos" data-scroll-index="3">
+            <div class="demos-section-container">
+                <h3 class="demos-section-title">Template Features</h3>
+            </div>
+            <div class="right-side-content">
+                <div class="about-cards-container row justify-content-md-center">
+                    <div class="single-card col-12 col-md-4 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="220">
+                        <i class="fa fa-4x text-transparent main-gradient-bg fa-file-alt"></i>
+                        <h4>Well Documented</h4>
+                        <p>We take perfect care of our Documentation because it is a very important when customizing the
+                            template</p>
+                    </div>
+                    <div class="single-card col-12 col-md-4 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="200">
+                        <i class="fa fa-4x text-transparent main-gradient-bg fa-window-restore"></i>
+                        <h4>26 Different Pages</h4>
+                        <p>You will get 26 different unique pages to choose from when you purchase the template</p>
+                    </div>
+                    <div class="single-card col-12 col-md-4 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="180">
+                        <i class="fa fa-4x text-transparent main-gradient-bg fa-snowflake"></i>
+                        <h4>Unique Layout</h4>
+                        <p>Our UI/UX is unique and designed with focusing on the user on the first place</p>
+                    </div>
+                    <div class="single-card col-12 col-md-4 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="160">
+                        <i class="fas fa-4x text-transparent main-gradient-bg fa-spinner"></i>
+                        <h4>PHP Working Ajax Form</h4>
+                        <p>There it two ways to use our contact form, one through your server, and another through
+                            gmail, to make sure all our users get an easy way top hear their customers</p>
+                    </div>
+                    <div class="single-card col-12 col-md-4 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="140">
+                        <i class="fa fa-4x text-transparent main-gradient-bg fa-envelope"></i>
+                        <h4>Mail Chimp Subscription</h4>
+                        <p>Get a simple and easy MailChimp Subscription form to make sure your customers gets all your
+                            updates, and it doesn't even need PHP to run, so you can run it on a static server</p>
+                    </div>
+                    <div class="single-card col-12 col-md-4 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="120">
+                        <i class="fa fa-4x text-transparent main-gradient-bg fa-mobile"></i>
+                        <h4>100% Responsive</h4>
+                        <p>We make sure that our template will look the same on all different screens to give our users
+                            a seamless experience</p>
+                    </div>
+                    <div class="single-card col-12 col-md-4 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="100">
+                        <i class="fa fa-4x text-transparent main-gradient-bg fa-code"></i>
+                        <h4>W3C Validated Code</h4>
+                        <p>Our code is validated and tested on The World Wide Web Consortium (W3C) to make sure it looks
+                            the same on all different browsers</p>
+                    </div>
+                    <div class="single-card col-12 col-md-4 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="160">
+                        <i class="fab fa-4x text-transparent main-gradient-bg fa-fonticons-fi"></i>
+                        <h4>Free Font And Icons Used</h4>
+                        <p>All the fonts used are free from Google Fonts, and all our icons are from our designs so our
+                            customers can have an easy setup</p>
+                    </div>
+                    <div class="single-card col-12 col-md-4 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="140">
+                        <i class="fab fa-4x text-transparent main-gradient-bg fa-css3-alt"></i>
+                        <h4>Built on Bootstrap 4</h4>
+                        <p>Built on the latest Bootstrap version, and we will keep updating it once there is a new
+                            stable version</p>
+                    </div>
+                    <div class="single-card col-12 col-md-4 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="120">
+                        <i class="fa fa-4x text-transparent main-gradient-bg fa-dna"></i>
+                        <h4>Smooth Transition Effects</h4>
+                        <p>Using Smooth Transition Effects gives the user a great experience while scrolling down on the
+                            page, and we keep in mind users from mobile devices</p>
+                    </div>
+                    <div class="single-card col-12 col-md-4 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="100">
+                        <i class="fa fa-4x text-transparent main-gradient-bg fa-pen-fancy"></i>
+                        <h4>Easily Customizable</h4>
+                        <p>Enjoy customizing the template with well written code to have an easy experience and if you
+                            have any difficulties please don't hesitate to send us an email</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Start Copyright Section-->
+        <div class="main-copyright blue-light-background">
+            <p>Designed and coded with &nbsp;<i class="fas fa-heart"></i>&nbsp; by PerleTheme</p>
+            <div class="copyright-nav">
+                <a class="nav-link" data-scroll-nav="0" href="#">Home</a>
+                <a class="nav-link" data-scroll-nav="3" href="">About</a>
+                <a class="nav-link" data-scroll-nav="5" href="#">Projects</a>
+                <a class="nav-link" data-scroll-nav="8" href="#">News</a>
+            </div>
+        </div>
+        <!-- End Copyright Section-->
+    </div>
+
+    <!--Back to top button-->
+    <a href="#0" class="cd-top js-cd-top waves-effect waves-circle dark-style"><i class="fas fa-chevron-up"></i></a>
+
+</div>
+
+
+<!--All Javascript Plugins Used-->
+<script src="./js/plugins.js"></script>
+<!--Main Javascript file-->
+<script src="./js/main.js"></script>
+
+</body>
+</html>

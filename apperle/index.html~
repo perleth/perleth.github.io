@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Meta tags-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- Change Title and Meta tags-->
+    <title>Apperle | HTML Template | Home</title>
+    <meta name="description" content="Apperle | responsive app landing page, This is a premium product available exclusively here : https://themeforest.net/user/perletheme">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Perle Template">
+
+    <!-- Favicon -->
+    <link rel="icon" href="./images/icon.png">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" type="text/css" href="./css/plugins.css">
+    <!-- Our Min CSS -->
+    <link rel='stylesheet' type="text/css" href='css/styles.css'/>
+    <link rel="stylesheet" type="text/css" href="./css/color/style10.css" id="colors">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js" type="text/javascript"></script>
+    <![endif]-->
+        <!-- Google Analytics -->
+<script>         window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;         ga('create', 'UA-101768876-2', 'auto');         ga('send', 'pageview');     </script>
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
+ <!-- End Google Analytics -->
+</head> 
+
+<body style="background: url('./images/background/photography.png') repeat">
+
+
+<!-- Start Header Section-->
+<header id="main-header" class="parallax-main-header" style="min-height: 600px; height: 600px">
+
+    <div class="overlay gradient-color"></div>
+
+    <div id="scene" data-hover-only="true" data-relative-input="true" class="parallax" >
+
+
+        <div class="layer layer2" data-depth="2">
+
+            <svg id="svg" width="3857px" height="1232px" viewBox="0 0 2857 1232" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path d="M0,1230 L70,307 C95.4285714,307 222.571429,259 248,259 C263.714286,259 342.285714,223 358,223 C380.857143,223 495.142857,379 518,379 C533.571429,379 611.428571,241 627,241 C645.857143,241 740.142857,360 759,360 C781.857143,360 896.142857,234 919,234 C934.428571,234 1011.57143,243 1027,243 C1048.57143,243 1156.42857,367 1178,367 C1196.71429,367 1290.28571,260 1309,260 C1324,260 1399,223 1414,223 C1432.57143,223 1525.42857,248 1544,248 C1563,248 1658,222 1677,222 C1699.28571,222 1810.71429,227 1833,227 C1855.42857,227 1967.57143,367 1990,367 C2007.42857,367 2094.57143,241 2112,241 C2127.42857,241 2204.57143,392 2220,392 C2245,392 2370,371 2395,371 C2409.57143,371 2482.42857,394 2497,394 C2521,394 2641,219 2665,219 L2855,307 L2855,1230 L0,1230 Z" stroke="#1A6BC8" fill="#1A6BC8"></path>
+                <path d="M0,1230 L98,392 C119.714286,392 228.285714,314 250,314 C273.285714,314 389.714286,318 413,318 C434.142857,318 539.857143,456 561,456 C579.142857,456 669.857143,459 688,459 C705,459 790,474 807,474 C821.857143,474 896.142857,342 911,342 C929.428571,342 1021.57143,460 1040,460 C1057.14286,460 1142.85714,473 1160,473 C1182.28571,473 1293.71429,456 1316,456 C1331.14286,456 1406.85714,303 1422,303 C1441,303 1536,341 1555,341 C1580.71429,341 1709.28571,332 1735,332 C1760.28571,332 1886.71429,319 1912,319 C1937.42857,319 2064.57143,326 2090,326 C2115.57143,326 2243.42857,342 2269,342 C2282.85714,342 2352.14286,316 2366,316 C2379.85714,316 2449.14286,315 2463,315 C2478.42857,315 2555.57143,338 2571,338 C2593,338 2703,457 2725,457 L2855,392 L2855,1230 L0,1230 Z" stroke="#0067B8" fill="#0067B8"></path>
+                <path d="M0,1230 L126,478 C145.571429,478 243.428571,541 263,541 C278.571429,541 356.428571,564 372,564 C392.571429,564 495.428571,389 516,389 C535,389 630,407 649,407 C672,407 787,425 810,425 C832,425 942,428 964,428 C979,428 1054,556 1069,556 C1086.42857,556 1173.57143,400 1191,400 C1207.57143,400 1290.42857,426 1307,426 C1329.14286,426 1439.85714,414 1462,414 C1478.85714,414 1563.14286,553 1580,553 C1600.85714,553 1705.14286,426 1726,426 C1747.71429,426 1856.28571,568 1878,568 C1893.42857,568 1970.57143,553 1986,553 C2010.28571,553 2131.71429,571 2156,571 C2177.14286,571 2282.85714,409 2304,409 C2329.71429,409 2458.28571,412 2484,412 C2498.71429,412 2572.28571,529 2587,529 L2855,478 L2855,1230 L0,1230 Z" stroke="#0062A6" fill="#0062A6"></path>
+            </svg>
+
+        </div>
+
+
+        <div class="layer" data-depth="1">
+
+            <svg id="svg" width="3857px" height="1232px" viewBox="0 0 2857 1232" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path d="M0,1230 L70,307 C95.4285714,307 222.571429,259 248,259 C263.714286,259 342.285714,223 358,223 C380.857143,223 495.142857,379 518,379 C533.571429,379 611.428571,241 627,241 C645.857143,241 740.142857,360 759,360 C781.857143,360 896.142857,234 919,234 C934.428571,234 1011.57143,243 1027,243 C1048.57143,243 1156.42857,367 1178,367 C1196.71429,367 1290.28571,260 1309,260 C1324,260 1399,223 1414,223 C1432.57143,223 1525.42857,248 1544,248 C1563,248 1658,222 1677,222 C1699.28571,222 1810.71429,227 1833,227 C1855.42857,227 1967.57143,367 1990,367 C2007.42857,367 2094.57143,241 2112,241 C2127.42857,241 2204.57143,392 2220,392 C2245,392 2370,371 2395,371 C2409.57143,371 2482.42857,394 2497,394 C2521,394 2641,219 2665,219 L2855,307 L2855,1230 L0,1230 Z" stroke="#1A6BC8" fill="#1A6BC8"></path>
+                <path d="M0,1230 L98,392 C119.714286,392 228.285714,314 250,314 C273.285714,314 389.714286,318 413,318 C434.142857,318 539.857143,456 561,456 C579.142857,456 669.857143,459 688,459 C705,459 790,474 807,474 C821.857143,474 896.142857,342 911,342 C929.428571,342 1021.57143,460 1040,460 C1057.14286,460 1142.85714,473 1160,473 C1182.28571,473 1293.71429,456 1316,456 C1331.14286,456 1406.85714,303 1422,303 C1441,303 1536,341 1555,341 C1580.71429,341 1709.28571,332 1735,332 C1760.28571,332 1886.71429,319 1912,319 C1937.42857,319 2064.57143,326 2090,326 C2115.57143,326 2243.42857,342 2269,342 C2282.85714,342 2352.14286,316 2366,316 C2379.85714,316 2449.14286,315 2463,315 C2478.42857,315 2555.57143,338 2571,338 C2593,338 2703,457 2725,457 L2855,392 L2855,1230 L0,1230 Z" stroke="#0067B8" fill="#0067B8"></path>
+                <path d="M0,1230 L126,478 C145.571429,478 243.428571,541 263,541 C278.571429,541 356.428571,564 372,564 C392.571429,564 495.428571,389 516,389 C535,389 630,407 649,407 C672,407 787,425 810,425 C832,425 942,428 964,428 C979,428 1054,556 1069,556 C1086.42857,556 1173.57143,400 1191,400 C1207.57143,400 1290.42857,426 1307,426 C1329.14286,426 1439.85714,414 1462,414 C1478.85714,414 1563.14286,553 1580,553 C1600.85714,553 1705.14286,426 1726,426 C1747.71429,426 1856.28571,568 1878,568 C1893.42857,568 1970.57143,553 1986,553 C2010.28571,553 2131.71429,571 2156,571 C2177.14286,571 2282.85714,409 2304,409 C2329.71429,409 2458.28571,412 2484,412 C2498.71429,412 2572.28571,529 2587,529 L2855,478 L2855,1230 L0,1230 Z" stroke="#0062A6" fill="#0062A6"></path>
+            </svg>
+
+        </div>
+
+    </div>
+
+
+    <div class="header-layer layer">
+
+        <div class="header-text">
+
+            <div>
+                <!-- Your App name -->
+                <div class="title m-t-3">
+                    <h1 class="title-link anurati">
+                        <span>A</span><span>p</span><span>p</span><span>e</span><span>r</span><span>l</span><span>e</span>
+                    </h1>
+                </div>
+
+                <!-- App Main Description -->
+                <p class="description">Present Your App In A Beautiful Way</p>
+
+                <!-- App Slogan -->
+                <p class="slogan waves-effect waves-light hoverable z-depth-1-half"><a href="https://themeforest.net/item/apperle-app-landing-page/20702476">Buy Now</a></p>
+                <p class="slogan waves-effect waves-light hoverable z-depth-1-half" data-scroll-nav="0"><a href="#">View Demos</a></p>
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+<!-- End Header Section-->
+
+<div data-scroll-index="0" class="center-align preview-demo">
+    <h2 class="m-tb-3 p-tb-3">Choose Your Demo</h2>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col l4 m6 s12 m-tb-3">
+                <a href="./index-main.html" target="_blank">
+                    <img class="responsive-img" src="./images/preview/main.png" alt="">
+                </a>
+                <h6 class="m-b-1">Main Demo</h6>
+            </div>
+            <div class="col l4 m6 s12 m-tb-3">
+                <a href="./index-particles.html" target="_blank">
+                    <img class="responsive-img" src="./images/preview/particles.png" alt="">
+                </a>
+                <h6 class="m-b-1">Particles Background</h6>
+            </div>
+            <div class="col l4 m6 s12 m-tb-3">
+                <a href="./index-ripples.html" target="_blank">
+                    <img class="responsive-img" src="./images/preview/ripples.png" alt="">
+                </a>
+                <h6 class="m-b-1">Ripples Effect Background</h6>
+            </div>
+            <div class="col l4 m6 s12 m-tb-3">
+                <a href="./index-parallax2.html" target="_blank">
+                    <img class="responsive-img" src="./images/preview/parallax2.png" alt="">
+                </a>
+                <h6 class="m-b-1">Parallax Background</h6>
+            </div>
+            <div class="col l4 m6 s12 m-tb-3">
+                <a href="./index-parallax4.html" target="_blank">
+                    <img class="responsive-img" src="./images/preview/parallax4.png" alt="">
+                </a>
+                <h6 class="m-b-1">Parallax Background 2</h6>
+            </div>
+            <div class="col l4 m6 s12 m-tb-3">
+                <a href="./index-animated.html" target="_blank">
+                    <img class="responsive-img" src="./images/preview/shiny-particles.png" alt="">
+                </a>
+                <h6 class="m-b-1">Shiny Particles Background</h6>
+            </div>
+            <div class="col l4 m6 s12 m-tb-3">
+                <a href="./index-video.html" target="_blank">
+                    <img class="responsive-img" src="./images/preview/video.png" alt="">
+                </a>
+                <h6 class="m-b-1">Video Background</h6>
+            </div>
+            <div class="col l4 m6 s12 m-tb-3">
+                <a href="./index-snow.html" target="_blank">
+                    <img class="responsive-img" src="./images/preview/snow.png" alt="">
+                </a>
+                <h6 class="m-b-1">Snow Background</h6>
+            </div>
+            <div class="col l4 m6 s12 m-tb-3">
+                <a href="./index-waves.html" target="_blank">
+                    <img class="responsive-img" src="./images/preview/waves.png" alt="">
+                </a>
+                <h6 class="m-b-1">Waves Background</h6>
+            </div>
+            <div class="col l4 m6 s12 m-tb-3">
+                <a href="./index-cd.html" target="_blank">
+                    <img class="responsive-img" src="./images/preview/cd.png" alt="">
+                </a>
+                <h6 class="m-b-1">Count Down Demo</h6>
+            </div>
+            <div class="col l4 m6 s12 m-tb-3">
+                <a href="./index-parallax.html" target="_blank">
+                    <img class="responsive-img" src="./images/preview/parallax1.png" alt="">
+                </a>
+                <h6 class="m-b-1">Parallax Items</h6>
+            </div>
+            <div class="col l4 m6 s12 m-tb-3">
+                <a href="./index-interactive.html" target="_blank">
+                    <img class="responsive-img" src="./images/preview/integrated.png" alt="">
+                </a>
+                <h6 class="m-b-1">Interactive App</h6>
+            </div>
+            <div class="col l4 m6 s12 m-tb-3">
+                <a href="./index-animated2.html" target="_blank">
+                    <img class="responsive-img" src="./images/preview/glee.png" alt="">
+                </a>
+                <h6 class="m-b-1">Glee Background</h6>
+            </div>
+            <div class="col l4 m6 s12 m-tb-3">
+                <a href="./index-infinite2.html" target="_blank">
+                    <img class="responsive-img" src="./images/preview/Infinite2.png" alt="">
+                </a>
+                <h6 class="m-b-1">Infinite Background 1</h6>
+            </div>
+            <div class="col l4 m6 s12 m-tb-3">
+                <a href="./index-infinite.html" target="_blank">
+                    <img class="responsive-img" src="./images/preview/Infinite1.png" alt="">
+                </a>
+                <h6 class="m-b-1">Infinite Background 2</h6>
+            </div>
+
+
+
+
+            <div class="col s12 m-b-3">
+                <h5>More Parallax Background Demos to show that it's fully customizable.</h5>
+                <p>** Note: Parallax Backgrounds might be slow on old browsers</p>
+            </div>
+            <div class="col l4 m6 s12 m-tb-3">
+                <a href="./index-parallax3.html" target="_blank">
+                    <img class="responsive-img" src="./images/preview/parallax3.png" alt="">
+                </a>
+                <h6 class="m-b-1">Parallax Background 3</h6>
+            </div>
+            <div class="col l4 m6 s12 m-tb-3">
+                <a href="./index-parallax5.html" target="_blank">
+                    <img class="responsive-img" src="./images/preview/parallax5.png" alt="">
+                </a>
+                <h6 class="m-b-1">Parallax Background 4</h6>
+            </div>
+            <div class="col l4 m6 s12 m-tb-3">
+                <a href="./index-parallax6.html" target="_blank">
+                    <img class="responsive-img" src="./images/preview/parallax6.png" alt="">
+                </a>
+                <h6 class="m-b-1">Parallax Background 5</h6>
+            </div>
+
+
+
+
+            <div class="col s12 m-b-3">
+                <h2>Other Pages Demos</h2>
+            </div>
+            <div class="col l4 m6 s12 m-tb-3">
+                <a href="./404.html" target="_blank">
+                    <img class="responsive-img" src="./images/preview/404.png" alt="">
+                </a>
+                <h6 class="m-b-1">404 Page</h6>
+            </div>
+            <div class="col l4 m6 s12 m-tb-3">
+                <a href="./blog.html" target="_blank">
+                    <img class="responsive-img" src="./images/preview/blog.png" alt="">
+                </a>
+                <h6 class="m-b-1">Blog Page</h6>
+            </div>
+            <div class="col l4 m6 s12 m-tb-3">
+                <a href="./blog-l.html" target="_blank">
+                    <img class="responsive-img" src="./images/preview/blog-l.png" alt="">
+                </a>
+                <h6 class="m-b-1">Blog Left Sidebar</h6>
+            </div>
+            <div class="col l4 m6 s12 m-tb-3">
+                <a href="./blog3.html" target="_blank">
+                    <img class="responsive-img" src="./images/preview/3blog.png" alt="">
+                </a>
+                <h6 class="m-b-1">Blog Full Page</h6>
+            </div>
+
+            <div class="col l4 m6 s12 m-tb-3">
+                <a href="./single-blog.html" target="_blank">
+                    <img class="responsive-img" src="./images/preview/single.png" alt="">
+                </a>
+                <h6 class="m-b-1">Single Post Page</h6>
+            </div>
+            <div class="col l4 m6 s12 m-tb-3">
+                <a href="./single-blog-l.html" target="_blank">
+                    <img class="responsive-img" src="./images/preview/single-l.png" alt="">
+                </a>
+                <h6 class="m-b-1">Single Post Left Sidebar</h6>
+            </div>
+            <div class="col l4 m6 s12 m-tb-3">
+                <a href="./single-full-blog.html" target="_blank">
+                    <img class="responsive-img" src="./images/preview/single-full.png" alt="">
+                </a>
+                <h6 class="m-b-1">Single Post Left Sidebar</h6>
+            </div>
+            <!--<div class="col s12 m-b-3">-->
+                <!--<h2>RTL Support Demos</h2>-->
+            <!--</div>-->
+            <!--<div class="col l4 m6 s12 m-tb-3">-->
+                <!--<a href="./preview-rtl.html" target="_blank">-->
+                    <!--<img class="responsive-img" src="./images/preview/rtl.png" alt="">-->
+                <!--</a>-->
+                <!--<h6 class="m-b-1">All RTL Demos</h6>-->
+            <!--</div>-->
+        </div>
+    </div>
+</div>
+
+<div class="center-align preview-demo">
+    <h2 class="m-tb-3 p-tb-3">Template Features</h2>
+
+    <div class="container row">
+        <div class="col l4 m6 s12 m-b-3">
+            <div class="preview-feature z-depth-2">
+                <i class="fa fa-2x fa-file-text-o green-text"></i>
+                <p>Well Documented</p>
+            </div>
+        </div>
+        <div class="col l4 m6 s12 m-b-3">
+            <div class="preview-feature z-depth-2">
+                <i class="fa fa-2x fa-adjust cyan-text"></i>
+                <p>28 Different Colors</p>
+            </div>
+        </div>
+        <div class="col l4 m6 s12 m-b-3">
+            <div class="preview-feature z-depth-2">
+                <i class="fa fa-2x fa-window-restore black-text"></i>
+                <p>17 Different Pages</p>
+            </div>
+        </div>
+        <div class="col l4 m6 s12 m-b-3">
+            <div class="preview-feature z-depth-2">
+                <i class="fa fa-2x fa-snowflake-o blue-text"></i>
+                <p>Unique Layout</p>
+            </div>
+        </div>
+        <div class="col l4 m6 s12 m-b-3">
+            <div class="preview-feature z-depth-2">
+                <i class="fa fa-2x fa-chevron-left pink-text"></i>
+                <p>RTL Support</p>
+            </div>
+        </div>
+        <div class="col l4 m6 s12 m-b-3">
+            <div class="preview-feature z-depth-2">
+                <i class="fa fa-2x fa-spinner fa-spin purple-text"></i>
+                <p>PHP Working Ajax Form</p>
+            </div>
+        </div>
+        <div class="col l4 m6 s12 m-b-3">
+            <div class="preview-feature z-depth-2">
+                <i class="fa fa-2x fa-envelope yellow-text"></i>
+                <p>Mail Chimp Subscription</p>
+            </div>
+        </div>
+        <div class="col l4 m6 s12 m-b-3">
+            <div class="preview-feature z-depth-2">
+                <i class="fa fa-2x fa-mobile teal-text"></i>
+                <p>100% Responsive</p>
+            </div>
+        </div>
+        <div class="col l4 m6 s12 m-b-3">
+            <div class="preview-feature z-depth-2">
+                <i class="fa fa-2x fa-code blue-grey-text-text"></i>
+                <p>W3C Validated Code</p>
+            </div>
+        </div>
+        <div class="col l4 m6 s12 m-b-3">
+            <div class="preview-feature z-depth-2">
+                <i class="fa fa-2x fa-heartbeat red-text"></i>
+                <p>13 Beautiful Demos</p>
+            </div>
+        </div>
+        <div class="col l4 m6 s12 m-b-3">
+            <div class="preview-feature z-depth-2">
+                <i class="fa fa-2x fa-font lime-text"></i>
+                <p>Free Font And Icons Used</p>
+            </div>
+        </div>
+        <div class="col l4 m6 s12 m-b-3">
+            <div class="preview-feature z-depth-2">
+                <i class="fa fa-2x fa-css3 orange-text"></i>
+                <p>Built on CSS Materialize</p>
+            </div>
+        </div>
+        <div class="col l4 m6 s12 m-b-3">
+            <div class="preview-feature z-depth-2">
+                <i class="fa fa-2x fa-eercast deep-orange-text"></i>
+                <p>Smooth Transition Effects</p>
+            </div>
+        </div>
+        <div class="col l4 m6 s12 m-b-3">
+            <div class="preview-feature z-depth-2">
+                <i class="fa fa-2x fa-pencil brown-text"></i>
+                <p>Easily Customizable</p>
+            </div>
+        </div>
+        <div class="col l4 m6 s12 m-b-3">
+            <div class="preview-feature z-depth-2">
+                <i class="fa fa-2x fa-instagram pink-text"></i>
+                <p>Instagram Integration Support</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Start Copy Rights Section-->
+<div id="copy-rights" class="col s12">
+
+    <div class="container">
+
+        <!-- Your Copy Right -->
+        <p>Copyright &copy; 2017 Apperle HTML template by <a href="https://themeforest.net/user/perletheme" target="_blank">Perle Template</a></p>
+
+        <!-- Your Social Network Links-->
+        <div class="social-icons">
+
+            <!-- Facebook -->
+            <a href="#">
+                <i class="fa fa-facebook shadow-button waves-effect waves-light waves-circle blue"></i>
+            </a>
+
+            <!-- Twitter -->
+            <a href="#">
+                <i class="fa fa-twitter shadow-button waves-effect waves-light waves-circle light-blue lighten-2"></i>
+            </a>
+
+            <!-- Instagram -->
+            <a href="#">
+                <i class="fa fa-instagram shadow-button waves-effect waves-light waves-circle amber darken-3"></i>
+            </a>
+
+            <!-- Youtube -->
+            <a href="#">
+                <i class="fa fa-youtube shadow-button waves-effect waves-light waves-circle red"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+<!-- End Copy Rights Section-->
+
+
+<!-- jQuery - and plugins JS files -->
+<script src='./js/plugins.js' type="text/javascript"></script>
+<!-- Background Paralalx JS -->
+<script src='./js/animated/parallax.min.js' type="text/javascript"></script>
+<script src='js/animated/animated-main.js' type="text/javascript"></script>
+<!-- Our Main JS -->
+<script src='./js/min/main-min.js' type="text/javascript"></script>
+
+</body>
+
+</html>

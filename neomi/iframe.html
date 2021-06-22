@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="./css/plugins.css">
+  <title>Neomi | HTML Template | Home</title>
+  <meta name="description"
+        content="Neomi | Responsive Sass, Software Landing Page, This is a premium product available exclusively here : https://themeforest.net/user/perletheme">
+  <link rel="icon" href="./images/logo/logo.png">
+  
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+    }
+    
+    .main {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      margin: 0 auto -10px;
+      transition: all 0.3s;
+      overflow: hidden;
+    }
+    
+    iframe {
+      height: 100% !important;
+      margin: 0 auto -10px;
+    }
+    
+    iframe.bordered {
+      border-right: 1px solid #d2d2d2;
+    }
+    
+    #width-switcher {
+      background: #fff none repeat scroll 0 0;
+      box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+      left: -161px;
+      position: absolute;
+      top: calc(30% - 114px);
+      width: 160px;
+      z-index: 9999;
+      transition: all 0.4s ease-out;
+    }
+    
+    #responsiveness {
+      text-align: center;
+    }
+    
+    #width-switcher a {
+      margin: 0.3rem;
+      color: #14bf00;
+      padding: 0.3rem;
+    }
+    
+    #width-switcher a.active {
+      color: black;
+    }
+    
+    #width-switcher.active {
+      left: 0;
+    }
+    
+    #width-switcher div {
+      padding: 12px
+    }
+    
+    #width-switcher h2 {
+      color: #2a2a2a;
+      font-size: 1rem;
+      font-weight: 400;
+      margin-bottom: 0;
+      margin-right: 0;
+      margin-top: 0;
+      padding: 10px 4px 0;
+      text-align: center;
+      text-transform: capitalize;
+    }
+    
+    #width-switcher h2 a {
+      background-color: #202020;
+      display: block;
+      height: 40px;
+      position: absolute;
+      right: -40px;
+      bottom: 0;
+      width: 40px;
+      margin: 0;
+      padding: 0;
+    }
+    
+    #width-switcher h2 a i {
+      font-size: 20px;
+      color: #fff;
+      top: 10px;
+    }
+  </style>
+
+</head>
+
+<body>
+
+<div class="main">
+  <iframe id="frame" src="#" frameborder="0" width="100%" height="100vh" style="overflow: scroll"></iframe>
+  
+  <section id="width-switcher" class="hide-on-med-and-down">
+    
+    <h2>
+      Review on other devices
+      
+      <a id="fa-cog" href="index.html#">
+        <i class="fa waves-effect waves-light fa-mobile-phone"></i>
+      </a>
+    </h2>
+    
+    <div id="responsiveness">
+      <a href="#" data-width="100vw" data-class="" class="fa fa-2x hoverable active fa-desktop"></a>
+      <a href="#" data-width="960px" data-class="bordered" class="fa fa-2x hoverable fa-tablet"></a>
+      <a href="#" data-width="380px" data-class="bordered" class="fa fa-2x hoverable fa-mobile-phone"></a>
+    </div>
+  
+  </section>
+
+</div>
+
+<script src='./js/plugins.js'></script>
+<script src='./js/main.js'></script>
+
+<script>
+  
+  var getUrlParameter = function getUrlParameter(sParam) {
+    var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+        sURLVariables = sPageURL.split('&'),
+        sParameterName,
+        i;
+    
+    for (i = 0; i < sURLVariables.length; i++) {
+      sParameterName = sURLVariables[i].split('=');
+      
+      if (sParameterName[0] === sParam) {
+        return sParameterName[1] === undefined ? true : sParameterName[1];
+      }
+    }
+  };
+  
+  var page = './' + getUrlParameter('page') + '.html';
+  var frame = $('#frame');
+  frame.attr('src', page);
+  
+  function widthSwitcher() {
+    
+    var div = $("#width-switcher");
+    
+    $("#fa-cog").on('click', function (e) {
+      e.preventDefault();
+      div.toggleClass("active");
+    });
+    
+    $('#responsiveness a').each(function (i, el) {
+      var element = $(el);
+      var width = element.data('width');
+      
+      element.on('click', function (e) {
+        e.preventDefault();
+        
+        $('.main').css('width', width);
+        frame[0].classList = element.data('class');
+        
+        $(this).siblings().removeClass('active');
+        $(this).addClass('active');
+      });
+    });
+    
+  }
+  
+  widthSwitcher();
+
+</script>
+</body>
+</html>
